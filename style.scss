@@ -18,14 +18,14 @@ html {
 }
 
 body {
-	background: #ffffff;
+	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 740px;
   padding: 0 10px;
   width: 100%;
 }
@@ -151,7 +151,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .masthead {
@@ -165,9 +165,9 @@ img {
 
 .site-avatar {
   float: left;
-  width: 60px;
-  height: 60px;
-  margin-right: 10px;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
 
   @include mobile {
     float: none;
@@ -242,7 +242,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -266,63 +266,24 @@ nav {
   }
 
   .read-more {
+    text-transform: uppercase;
     font-size: 15px;
   }
 }
 
 .wrapper-footer {
-  margin-top: 0px;
+  margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #f0f0f0;
-}
-
-sponsor {
-  padding: 12px 0;
-  text-align: center;
+  background-color: $lightGray;
 }
 
 footer {
-  padding: 6px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-
-.download {
-  border-radius: 2px;
-  color: #ffffff;
-  padding: 0.25em;
-  background-color: #993333;
-  font-size: 90%;
-  font-weight: bold;
-  text-align: center;
-}
-
-.download {
-  margin-top: -2em;
-  float: right;
-  width: 8em;
-  transition: .35s ease;
-  text-transform: uppercase;
-}
-
-.download:hover {
-  background-color: #ff0000;
-  box-shadow: 0px 0px 8px #ffff66;
-}
-
-.tablelines table, .tablelines td {
-	border: 1px solid black;
-	padding: 10px;
-}
-
-.tablelines th {
- 	background-color: #666666;
-	color: white;
-	padding: 15px;
-}
-
 @import "highlights";
 @import "svg-icons";
