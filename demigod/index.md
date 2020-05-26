@@ -19,7 +19,7 @@ Demigod is based on [Qiling emulator](https://qiling.io). More details on our pr
 -------
 ### Authors
 
-- Nguyen Anh Quynh
-- Nguyen Hong Quang
-- Do Minh Tuan
+- [Nguyen Anh Quynh](https://twitter.com/capstone_engine)
+- [Nguyen Hong Quang](https://twitter.com/quangnh89)
+- [Do Minh Tuan](https://twitter.com/tuanit96)
 
