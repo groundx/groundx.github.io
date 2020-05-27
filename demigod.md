@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Demigod: Emulating Kernel Rootkits
+title: Demigod Emulating Kernel Rootkits
 permalink: /demigod/
 ---
 
