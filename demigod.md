@@ -4,8 +4,6 @@ title: Demigod Emulating Kernel Rootkits
 permalink: /demigod/
 ---
 
-<h2>Demigod: Emulating Kernel Rootkits</h2>
-
 Kernel rootkit is considered the most dangerous malware that may infect computers. Operating at ring 0, the highest privilege level in the system, this super malware has unrestricted power to control the whole machine, thus can defeat all the defensive & monitoring mechanisms. Unfortunately, dynamic analysis solutions for kernel rootkits are severely lacking; indeed, most existing dynamic tools are just built for userspace code (ring 3), but not for Operating System (OS) level. This limitation forces security researchers to turn to static analysis, which however proved to be very tricky & time consuming.
 
 This research proposes a novel approach to deal with kernel rootkits. We introduce Demigod, a framework to emulate OS environments, so kernel rootkits can be run in software emulators, all in ring 3. From this sandbox, we can safely monitor, trace, debug or perform all kinds of dynamic analysis with this advanced malware.
