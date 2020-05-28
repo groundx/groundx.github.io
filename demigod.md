@@ -12,9 +12,9 @@ This research proposes a novel approach to deal with kernel rootkits. We introdu
 
 Emulating complicated OS such as Windows, MacOS & Linux is a challenging task. We will present all the technical issues we had to deal with, including how we built our own loader and dynamic linker, how to emulate the OS environment, essential kernel components and system APIs to allow rootkits to work.
 
-Designed & implemented as a cross-platform-architecture engine, Demigod can emulate Windows, MacOS & Linux on X86/Arm/Aarch64/Mips. On top of Demigod, we built some advanced tools to analyze kernel rootkits, including some automated solutions, providing the malware analyst new weapons to ease their labor work.
+Designed & implemented as a cross-platform-architecture engine, **Demigod** can emulate Windows, MacOS & Linux on X86/Arm/Aarch64/Mips. On top of our framework, we built some advanced tools to analyze kernel rootkits, including some automated solutions, providing the malware analyst new weapons to ease their labor work.
 
-Demigod is based on [Qiling emulator](https://qiling.io). More details on our project will be presented at [Blackhat USA 2020](https://blackhat.com/us-20/briefings/schedule/#demigod-the-art-of-emulating-kernel-rootkits-20009).
+**Demigod** is based on [Qiling emulator](https://qiling.io). More details on our project will be presented at [Blackhat USA 2020](https://blackhat.com/us-20/briefings/schedule/#demigod-the-art-of-emulating-kernel-rootkits-20009).
 
 -------
 ### Authors
