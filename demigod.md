@@ -17,6 +17,13 @@ Designed & implemented as a cross-platform-architecture engine, **Demigod** can 
 **Demigod** is based on [Qiling emulator](https://qiling.io). More details on our project will be presented at [Blackhat USA 2020](https://blackhat.com/us-20/briefings/schedule/#demigod-the-art-of-emulating-kernel-rootkits-20009).
 
 -------
+### Update
+
+We are working with [Qiling team](https://qiling.io) to integrate Demigod into Qiling codebase. We estimate that Demigod will ready and available in [Qiling repo](https://github.com/qilingframework/qiling) in about 1-2 weeks after our Blackhat USA talk.
+
+Keep checking this page for more announcements.
+
+-------
 ### Authors
 
 - [Nguyen Anh Quynh](https://twitter.com/capstone_engine)
