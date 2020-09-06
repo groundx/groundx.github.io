@@ -18,7 +18,7 @@ At **GroundX.IO**, over the years we founded or contributed to several projects 
 
 - [Demigod](/demigod/): OS kernel emulator
 
-- [Redback](/redback/): high-level binary injection
+- [Redback](/redback/): high-level static binary injection
 
 
 Follow us on Twitter at [@groundx_io](https://twitter.com/groundx_io) for more annoucement on future R&D works.
