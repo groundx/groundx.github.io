@@ -6,9 +6,11 @@ permalink: /redback/
 
 <h1>Redback: Advanced Static Binary Injection</h1>
 
+<br>
 <p align="center">
 <img width="200" src="/images/redback.png">
 </p>
+<br>
 
 Static binary injection is a technique to permanently insert external code to an executable file, in order to observe or modify target behavior at run-time. From an attacker's perspective, this is helpful to enable persistent infection. For the defense side, this plays a crucial step in binary instrumentation. Unfortunately, good injection tools are seriously lacking: firstly, existing tools only support some limited platforms or CPU architectures. Secondly, they all restrict the injected code to be written in low-level assembly, which significantly raises the cost of development and maintenance.
 
