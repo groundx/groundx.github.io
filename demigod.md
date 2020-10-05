@@ -19,9 +19,7 @@ Designed & implemented as a cross-platform-architecture engine, **Demigod** can 
 -------
 ### Update
 
-We are working with [Qiling team](https://qiling.io) to integrate Demigod into Qiling codebase. We estimate that Demigod will be ready and available in [Qiling repo](https://github.com/qilingframework/qiling) in about 1-2 weeks after our Blackhat USA talk.
-
-Keep checking this page for more announcements.
+October 5th, 2020: we already merged Demigod code into [Qiling](https://qiling.io). Expect to see Demigod available in Qiling v1.2.
 
 -------
 ### Authors
