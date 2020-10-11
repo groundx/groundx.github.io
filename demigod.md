@@ -14,7 +14,9 @@ Emulating complicated OS such as Windows, MacOS & Linux is a challenging task. W
 
 Designed & implemented as a cross-platform-architecture engine, **Demigod** can emulate Windows, MacOS & Linux on X86/Arm/Aarch64/Mips. On top of our framework, we built some advanced tools to analyze kernel rootkits, including some automated solutions, providing the malware analyst new weapons to ease their labor work.
 
-**Demigod** is based on [Qiling emulator](https://qiling.io). More details on our project will be presented at [Blackhat USA 2020](https://blackhat.com/us-20/briefings/schedule/#demigod-the-art-of-emulating-kernel-rootkits-20009).
+**Demigod** is based on [Qiling emulator](https://qiling.io).
+
+For details, see our [PDF slides](/docs/BHUSA2020-demigod.pdf), which was presented at [Blackhat USA 2020](https://blackhat.com/us-20/briefings/schedule/#demigod-the-art-of-emulating-kernel-rootkits-20009).
 
 -------
 ### Update
